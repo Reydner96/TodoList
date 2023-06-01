@@ -74,7 +74,7 @@ const App = () => {
         {todos.filter((todo) =>
             filter === "All"
               ? true
-              : filter === "Completed"
+              : filter === "Completeted"
               ? todo.isCompleted
               : !todo.isCompleted
           ).filter((todo) =>
