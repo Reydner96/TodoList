@@ -86,7 +86,7 @@ const App = () => {
               key={todo.id}
               index={index}
               todo={todo}
-              removeTodo={removeTodo}
+              removeTodo={removeTodos} // remove s
               completeTodo={completeTodo}
             />
           ))}
